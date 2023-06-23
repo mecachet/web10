@@ -4,26 +4,24 @@
   box-sizing: border-box;
   max-width: 100%;
   background-color: #0a22f4;
+  font-family: "Helvetica Neue";
 }
-.footer {
-  height: 500px;
-  padding: 50px;
-  margin-top: 200px;
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueLTGEO-45Lights.ttf.TTF");
+  src: url("../fonts/HelveticaNeueLTGEO-45Lights.woff");
+  src: url("../fonts/HelveticaNeueLTGEO-45Lights.woff2");
 }
 .footer-h3 {
   color: white;
-  position: relative;
+  position: absolute;
+  bottom: 50%;
 }
 .footer-text {
   color: white;
-  width: 45%;
-  text-align: left;
-  position: relative;
-}
-.lower-text1 {
-  display: inline-block;
-  color: white;
-  font-size: 10px;
+  width: 30%;
+  position: absolute;
+  bottom: 35%;
 }
 .lower-text2 {
   display: inline-block;
@@ -37,8 +35,10 @@
   top: 7px;
 }
 .smartweb {
-  display: inline-block;
   position: absolute;
   bottom: 4%;
   right: 10%;
+}
+.container {
+ 
 }
