@@ -19,12 +19,11 @@
 }
 .footer-text {
   color: white;
-  width: 30%;
   position: absolute;
-  bottom: 35%;
+  bottom: 55%;
+  width: 30%;
 }
 .lower-text2 {
-  display: inline-block;
   color: white;
   position: absolute;
   bottom: 5%;
@@ -39,6 +38,33 @@
   bottom: 4%;
   right: 10%;
 }
-.container {
- 
+.container p {
+  left: 10%;
+}
+.container h3 {
+  left: 10%;
+  bottom: 70%;
+}
+.google-map iframe {
+  top: 50%;
+  left: 11%;
+  position: absolute;
+  border-radius: 10px;
+  height: 25%;
+}
+.shape {
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 403px;
+  height: 200px;
+  border-radius: 10px; 
+  top: 51%;
+  left: 10.2%;
+}
+.extra-info h4 {
+  display: inline-block;
+  color: white;
+  margin-right: 100px;
 }
