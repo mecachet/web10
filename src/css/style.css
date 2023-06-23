@@ -59,12 +59,17 @@
   left: 0;
   width: 403px;
   height: 200px;
-  border-radius: 10px; 
+  border-radius: 10px;
   top: 51%;
   left: 10.2%;
 }
 .extra-info h4 {
+  position: absolute;
   display: inline-block;
   color: white;
-  margin-right: 100px;
+  margin-right: 90px;
+  margin-top: 42%;
+}
+.register {
+  
 }
