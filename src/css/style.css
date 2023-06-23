@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  background-color: #0a22f4;
+}
+.footer {
+  height: 500px;
+  padding: 50px;
+  margin-top: 200px;
+}
+.footer-h3 {
+  color: white;
+  position: relative;
+}
+.footer-text {
+  color: white;
+  width: 45%;
+  text-align: left;
+  position: relative;
+}
+.lower-text1 {
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+}
+.lower-text2 {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  right: 20%;
+}
+.heart {
+  position: relative;
+  top: 7px;
+}
+.smartweb {
+  display: inline-block;
+  position: absolute;
+  bottom: 4%;
+  right: 10%;
+}
