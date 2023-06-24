@@ -6,7 +6,7 @@
   background-color: #0a22f4;
   font-family: "Helvetica Neue";
 }
-@font-face {
+@font-face *{
   font-family: "Helvetica Neue";
   src: url("../fonts/HelveticaNeueLTGEO-45Lights.ttf.TTF");
   src: url("../fonts/HelveticaNeueLTGEO-45Lights.woff");
@@ -15,12 +15,10 @@
 .footer-h3 {
   color: white;
   position: absolute;
-  bottom: 50%;
 }
 .footer-text {
   color: white;
   position: absolute;
-  bottom: 55%;
   width: 30%;
 }
 .lower-text2 {
@@ -40,13 +38,15 @@
 }
 .container p {
   left: 10%;
+  bottom: 68%;
 }
 .container h3 {
   left: 10%;
-  bottom: 70%;
+  bottom: 81%;
+  font-size: 24px;
 }
 .google-map iframe {
-  top: 50%;
+  top: 38%;
   left: 11%;
   position: absolute;
   border-radius: 10px;
@@ -60,16 +60,39 @@
   width: 403px;
   height: 200px;
   border-radius: 10px;
-  top: 51%;
+  top: 39%;
   left: 10.2%;
 }
-.extra-info h4 {
-  position: absolute;
-  display: inline-block;
-  color: white;
-  margin-right: 90px;
-  margin-top: 42%;
+.extraicon {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.contact {
+  text-decoration: none;
+  font-size: 22px;
 }
 .register {
-  
+  position: absolute;
+  max-width: 100%;
+  margin-left: 60%;
+  top: 25%;
+  color: white;
+}
+.label {
+  display: block;
+  max-width: 463px;
+  margin-bottom: 10px;
+}
+.input {
+  display: block;
+  max-width: 480px;
+  border: none;
+  border-bottom: 1px solid #4456f4;
+  height: 30px;
+  margin-bottom: 40px;
+  resize: none;
+}
+.form-text {
+  height: 100px;
 }
