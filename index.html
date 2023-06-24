@@ -6,29 +6,37 @@
     <link rel="stylesheet" href="src/css/style.css" />
     <title>web10-</title>
   </head>
-  <body>
+  <body class="body">
     <footer class="footer">
-      <container class="container">
-      <div class="google-map">
-        <div class="shape"></div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2974.4849041020952!2d44.74543668578426!3d41.79631343463834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sge!4v1687573655639!5m2!1sen!2sge" 
-        width="400" 
-        height="450" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-      </div>
-      <div>
-        <div class="extrainfo">
-          <img class="extraicon" src="src/images/telephone.svg" alt="telephone" />
-          <a class="contact" href="tel:+995 555 444 333">+995 555 444 333</a>
+      <div class="container">
+        <div class="google-map">
+          <div class="shape"></div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2974.4849041020952!2d44.74543668578426!3d41.79631343463834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sge!4v1687573655639!5m2!1sen!2sge"
+            width="400"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
         </div>
-        <div class="extrainfo">
-          <img class="extraicon" src="src/images/email.svg" alt="email" />
-          <a class="contact" href="mailto:example@gmail.com"
-            >example@gmail.com</a>
+        <div class="bottom-icons">
+          <div class="info">
+            <img
+              class="extraicon"
+              src="src/images/telephone.svg"
+              alt="telephone"
+            />
+            <a class="contact" href="tel:+995 555 444 333">+995 555 444 333</a>
+          </div>
+          <div class="info2">
+            <img class="extraicon2" src="src/images/email.svg" alt="email" />
+            <a class="contact" href="mailto:example@gmail.com"
+              >example@gmail.com</a
+            >
+          </div>
         </div>
         <div>
           <h3 class="footer-h3">კონტაქტი</h3>
@@ -38,35 +46,71 @@
             ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
           </p>
         </div>
-        <div class="bottom-logos">
+        <div>
+          <a class="button" href="#">
+            <button class="send">გაგზავნა</button>
+          </a>
+        </div>
+        <div class="register">
+          <form class="form" action="#" method="#">
+            <label class="label" for="user-name">სახელი, გვარი</label>
+            <textarea
+              class="input name"
+              name="name"
+              id="name"
+              rows="4"
+              cols="60"
+            ></textarea>
+          </form>
+          <form class="form" action="#" method="#">
+            <label class="label" for="email">ელ. ფოსტა</label>
+            <textarea
+              class="input email"
+              name="email"
+              id="email"
+              rows="4"
+              cols="60"
+            ></textarea>
+          </form>
+          <form class="form" action="#" method="#">
+            <label class="label" for="tel">ტელეფონის ნომერი</label>
+            <textarea
+              class="input"
+              name="tel"
+              id="tel"
+              rows="4"
+              cols="60"
+            ></textarea>
+          </form>
+          <form class="alert" action="#" method="#">
+            <label class="label" for="text">შეტყობინება</label>
+            <textarea
+              class="input form-text"
+              name="text"
+              id="text"
+              rows="4"
+              cols="60"
+            ></textarea>
+          </form>
+        </div>
+      </div>
+      <div class="bottom-logos">
+        <div class="left-logo">
           <h4 class="lower-text2">
             <p>
               დამზადებულია
               <img class="heart" src="src/images/heart.png" alt="heart" /> -ით
             </p>
           </h4>
+        </div>
+        <div class="right-logo">
           <h4 class="smartweb">
-            <img src="SRC/Images/tinylogo.png" alt="tiny logo" />
+            <img src="src/Images/tinylogo.png" alt="tiny logo" />
           </h4>
         </div>
-      <div class="register">
-        <form class="form" action="#" method="#">
-          <label class="label" for="user-name">სახელი, გვარი</label>
-          <textarea class="input name" name="name" id="name" rows="4" cols="60"></textarea>
-        </form>
-        <form class="form" action="#" method="#">
-          <label class="label" for="email">ელ. ფოსტა</label>
-          <textarea class="input email" name="email" id="email" rows="4" cols="60"></textarea>
-        </form>
-        <form class="form" action="#" method="#">
-          <label class="label" for="tel">ტელეფონის ნომერი</label>
-          <textarea class="input" name="tel" id="tel" rows="4" cols="60"></textarea>
-        </form>
-        <form class="alert" action="#" method="#">
-          <label class="label" for="text">შეტყობინება</label>
-          <textarea class="input form-text" name="text" id="text" rows="4" cols="60"></textarea>
-        </form>
-      </container>
+      </div>
+      <div class="bottom-text">
+        <p>ყველა უფლება დაცულია</p>
       </div>
     </footer>
   </body>
