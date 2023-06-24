@@ -7,8 +7,10 @@
 }
 .body {
   height: 980px;
+  font-family: "Helvetica Neue", sans-serif;
+
 }
-@font-face * {
+@font-face {
   font-family: "Helvetica Neue";
   src: url("../fonts/HelveticaNeueLTGEO-45Lights.ttf.TTF");
   src: url("../fonts/HelveticaNeueLTGEO-45Lights.woff");
